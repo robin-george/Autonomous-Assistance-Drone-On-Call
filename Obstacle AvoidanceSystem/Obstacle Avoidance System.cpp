@@ -1,7 +1,7 @@
 #include <mavlink.h>
 #include <NewPing.h>        // For the ultrasonic sensor
 #include <SoftwareSerial.h> // Facilitates communication b/w Arduino and Pixhawk
-#define MAX_DISTANCE 50
+#define MAX_DISTANCE 70
 
 //======================= GPIO pins intialization =========================//
 SoftwareSerial mySerial(10, 11); /// RX, TX
